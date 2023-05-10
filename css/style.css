@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+hr {
+    height: 2px !important;
+    margin: 0 !important;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bg-light {
+    background: #F6F6F7 !important;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar-brand img {
+    width: 64px;
+}
+
+.nav-link {
+    font-size: 1.15rem !important;
+}
+
+.nav-link:hover,
+.active {
+    color: #8567EF !important;
+    font-weight: 600;
+}
+
+/* Catagory Section */
+.catagory-nav {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.category-default-item {
+    color: #8567EF !important;
+    background: #EEEFFF  !important;
+    font-weight: 600 !important;
+}
+
+.catagory-link {
+    padding: 2px 14px !important;
+    border-radius: 3px;
+}
+
+.catagory-link:hover {
+    background: #EEEFFF;
+    font-weight: 600;
+}
+
+.catagory-link:active,
+.catagory-link:focus {
+    color: #8567EF !important;
+    background: #EEEFFF  !important;
+    font-weight: 600 !important;
+}
+
+/* News Card */
+.card {
+    border: none !important;
+}
+
+.card-thumbnail {
+    width: 95%;
+    height: 100%;
+}
+
+.card-thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.card .news-text {
+    font-size: 16px !important;
+    color: #949494 !important;
+    /* font-weight: 400; */
+}
+
+.card-title {
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+}
+
+/* News Details */
+.news-details {
+    position: absolute;
+    width: 70%;
+    bottom: 1.5rem;
+}
+
+.news-author {
+    align-items: center;
+    justify-content: start;
+}
+
+.news-author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.news-author .author-name {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.news-author .publish-date {
+    font-size: 12px;
+    font-weight: 600;
+    color: #9CABB6;
+}
+
+.views, .ratings {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    height: 100% !important;
+}
+
+.details-button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.details-button button {
+        border: 2px solid #000;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.details-button button:hover {
+    font-size: 1.15rem !important;
+}
+
+/* Warning Section */
+#warning {
+    height: 24rem;
+}
+
+#warning h1 {
+    text-align: center;
+    padding-top: 11rem;
+}
+
+/* Modal Content */
+.details-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.details-image {
+    width: 220px;
+}
+.details-property {
+    font-weight: 600;
+    margin-right: 10px;
+}
